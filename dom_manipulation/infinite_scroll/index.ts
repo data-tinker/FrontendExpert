@@ -6,17 +6,7 @@ let canFetch: boolean = true;
 
 const testDiv: HTMLElement | null = document.getElementById("testimonial-container");
 
-interface Testimonial {
-  message: string;
-  id: string;
-}
-
-interface Response {
-  testimonials: Testimonial[];
-  hasNext: boolean;
-}
-
-const addToDom = (res: Response): void => {
+const addToDom = (res: TestimonialsResponse): void => {
   if (res && res.testimonials) {
     const fragment: DocumentFragment = document.createDocumentFragment();
     res.testimonials.forEach((item: Testimonial, index: number) => {

@@ -4,11 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "tsc && live-server",
+    "test": "npm run build && mocha 'tests/**/*.test.js'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-spies": "^1.1.0",
+    "jsdom": "^22.1.0",
+    "mocha": "^10.2.0",
     "typescript": "^5.2.2"
   }
+}
