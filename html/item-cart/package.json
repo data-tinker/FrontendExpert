@@ -1,0 +1,16 @@
+{
+  "name": "item-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "jsdom": "^22.1.0",
+    "mocha": "^10.2.0"
+  }
+}
