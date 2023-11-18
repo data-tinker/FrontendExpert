@@ -1,0 +1,28 @@
+nav {
+  align-items: flex-start;
+  background-color: #6e072d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  padding: 18px 27px;
+}
+
+li:hover {
+  background-color: #b90e4d;
+  cursor: pointer;
+}
+
+li:not(:last-of-type) {
+  border-right: 2px solid white;
+}
