@@ -1,0 +1,44 @@
+{
+  "name": "array-methods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "tsc && node main.js",
+    "test": "mocha -r ts-node/register 'tests/**/*.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.10",
+    "@types/chai-spies": "^1.0.6",
+    "@types/mocha": "^10.0.4",
+    "chai": "^4.3.10",
+    "chai-spies": "^1.1.0",
+    "mocha": "^10.2.0",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "bracketSameLine": false,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "singleAttributePerLine": false,
+    "customAttributes": [
+      "className"
+    ],
+    "customFunctions": [
+      "classNames"
+    ],
+    "plugins": []
+  }
+}
