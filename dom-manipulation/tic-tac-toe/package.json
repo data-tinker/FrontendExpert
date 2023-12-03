@@ -1,0 +1,35 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.1.0"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "bracketSameLine": false,
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "singleQuote": false,
+    "jsxSingleQuote": false,
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "singleAttributePerLine": false,
+    "customAttributes": [
+      "className"
+    ],
+    "customFunctions": [
+      "classNames"
+    ],
+    "plugins": []
+  }
+}

@@ -1,0 +1,49 @@
+#board {
+  background-color: grey;
+  border-radius: 10%;
+  color: white;
+  min-height: 450px;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  width: 280px;
+}
+
+h1 {
+  padding-top: 12px;
+}
+
+h2 {
+  margin: 8px;
+}
+
+table {
+  border-spacing: 8px;
+  margin: auto;
+}
+
+button {
+  background-color: #6e072d;
+  border-color: #6e6e6e;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.game-square {
+  font-size: 50px;
+  height: 70px;
+  vertical-align: top;
+  width: 70px;
+}
+
+.game-square:disabled {
+  cursor: default;
+}
+
+#restart-button {
+  display: none;
+  font-size: 24px;
+  margin: 12px auto;
+  padding: 12px;
+}
