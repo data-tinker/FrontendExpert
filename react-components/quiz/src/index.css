@@ -1,0 +1,65 @@
+body {
+  background-color: #f9f9fc;
+}
+
+h1 {
+  text-align: center;
+}
+
+button,
+input[type="button"] {
+  position: absolute;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #02203c;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+}
+
+button:first-of-type,
+input[type="button"]:first-of-type {
+  left: 16px;
+}
+
+button:last-of-type,
+input[type="button"]:last-of-type {
+  right: 16px;
+}
+
+button:disabled,
+input[type="button"]:disabled {
+  background-color: grey;
+}
+
+.answer {
+  cursor: pointer;
+  margin: 0;
+  border: 2px solid transparent;
+  padding: 5px;
+}
+
+.answer::before {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 2px;
+  width: 0.5em;
+  height: 0.5em;
+  content: "";
+}
+
+.answer.correct::before,
+.answer.incorrect::before {
+  background: black content-box;
+}
+
+.correct {
+  border: 2px solid green;
+}
+
+.incorrect {
+  border: 2px solid red;
+}
